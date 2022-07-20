@@ -1,0 +1,36 @@
+// AUTOMATICALLY GENERATED FILE. PLEASE DO NOT MODIFY IT MANUALLY
+//
+// PIO Unified Debugger
+//
+// Documentation: https://docs.platformio.org/page/plus/debugging.html
+// Configuration: https://docs.platformio.org/page/projectconf/section_env_debug.html
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug",
+            "executable": "/home/dawells/Work/SOF/PlatformIO_Projects/headset-verifier/.pio/build/headset-verifier/firmware.elf",
+            "projectEnvName": "headset-verifier",
+            "toolchainBinDir": "/home/dawells/.platformio/packages/toolchain-gccarmnoneeabi/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "svdPath": "/home/dawells/.platformio/platforms/teensy/misc/svd/MK66F18.svd",
+            "preLaunchTask": {
+                "type": "PlatformIO",
+                "task": "Pre-Debug"
+            }
+        },
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug (skip Pre-Debug)",
+            "executable": "/home/dawells/Work/SOF/PlatformIO_Projects/headset-verifier/.pio/build/headset-verifier/firmware.elf",
+            "projectEnvName": "headset-verifier",
+            "toolchainBinDir": "/home/dawells/.platformio/packages/toolchain-gccarmnoneeabi/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "svdPath": "/home/dawells/.platformio/platforms/teensy/misc/svd/MK66F18.svd"
+        }
+    ]
+}
